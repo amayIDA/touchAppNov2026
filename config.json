@@ -1,0 +1,52 @@
+{
+  "fullscreen": true,
+  "screen": 0,
+  "fit": "contain",
+  "background_video": "Touch screen clean.mp4",
+  "mute": true,
+  "idle_return_seconds": 20,
+  "tuio": {
+    "host": "0.0.0.0",
+    "ports": [
+      3333,
+      3334
+    ],
+    "coordinate_space": "screen",
+    "swap_xy": false,
+    "invert_x": false,
+    "invert_y": false,
+    "sources": {}
+  },
+  "topics": [
+    {
+      "title": "Workforce Wellbeing System",
+      "arabic": "منظومة جودة حياة القوى العاملة",
+      "video": "content/workforce.mp4"
+    },
+    {
+      "title": "Compliance and Inspection System",
+      "arabic": "منظومة الامتثال والرقابة",
+      "video": "content/compliance.mp4"
+    },
+    {
+      "title": "Unemployment Insurance Scheme",
+      "arabic": "منظومة التأمين ضد التعطل عن العمل",
+      "video": "content/unemployment.mp4"
+    },
+    {
+      "title": "Workers Protection Programme",
+      "arabic": "منظومة التأمين لحماية العمالة",
+      "video": "content/workers.mp4"
+    },
+    {
+      "title": "Wage Protection System",
+      "arabic": "منظومة حماية الأجور",
+      "video": "content/wages.mp4"
+    }
+  ],
+  "audio": {
+    "background_track": "assets/audio/background.mp3",
+    "background_volume": 0.5,
+    "effects_volume": 0.4
+  }
+}

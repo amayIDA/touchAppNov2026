@@ -1,0 +1,13 @@
+S3 TOUCH STUDIO — WINDOWS APP
+
+1. Double-click release\S3-Touch-Studio.exe.
+2. Keep SLAMTEC Frame Grabber scanning with Multitouch > TUIO enabled.
+3. The app opens full screen in Stories mode.
+4. Touch a thumbnail to open its image and information.
+5. Use Swap sides, Previous / Next, Slideshow, or All pictures.
+6. Controls lets you edit titles/information and calibrate the sensor.
+
+F11 = full screen on/off. Esc = normal window. Alt+F4 = close app.
+Keys 1–4 = original experiences. Key 5 = touch slideshow.
+
+The executable includes its own runtime. No Node.js installation is needed.

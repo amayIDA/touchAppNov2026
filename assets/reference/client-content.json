@@ -1,0 +1,2484 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "id": "heading",
+      "label": "Main heading",
+      "kind": "header",
+      "rect": [
+        -3,
+        1,
+        1600,
+        151
+      ],
+      "fields": [
+        {
+          "label": "Arabic heading",
+          "text": "سوق ينمو.. وحقوق تُصان",
+          "size": 24.9,
+          "rect": [
+            600,
+            18,
+            345,
+            36
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English heading",
+          "text": "A Growing Labour Market, Protected Rights",
+          "size": 29.19,
+          "rect": [
+            490,
+            55,
+            570,
+            38
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic subtitle",
+          "text": "لكن مع كل هذا النمو وملايين العاملين.. كيف تضمن الإمارات حقوقهم واستقرارهم؟",
+          "size": 18.39,
+          "rect": [
+            450,
+            94,
+            700,
+            29
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": false,
+          "weight": "Plain"
+        },
+        {
+          "label": "English subtitle",
+          "text": "But with this growth and millions of workers, how does the UAE safeguard their rights and ensure their stability?",
+          "size": 18.39,
+          "rect": [
+            325,
+            120,
+            930,
+            27
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": false,
+          "weight": "Plain"
+        }
+      ],
+      "background": "#193f70",
+      "radius": 22,
+      "template": "assets/reference/heading.png",
+      "template_background": "assets/reference/heading-background.png",
+      "reference_fields": [
+        {
+          "label": "Arabic heading",
+          "text": "سوق ينمو.. وحقوق تُصان",
+          "size": 24.9,
+          "rect": [
+            600,
+            18,
+            345,
+            36
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English heading",
+          "text": "A Growing Labour Market, Protected Rights",
+          "size": 29.19,
+          "rect": [
+            490,
+            55,
+            570,
+            38
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic subtitle",
+          "text": "لكن مع كل هذا النمو وملايين العاملين.. كيف تضمن الإمارات حقوقهم واستقرارهم؟",
+          "size": 18.39,
+          "rect": [
+            450,
+            94,
+            700,
+            29
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": false,
+          "weight": "Plain"
+        },
+        {
+          "label": "English subtitle",
+          "text": "But with this growth and millions of workers, how does the UAE safeguard their rights and ensure their stability?",
+          "size": 18.39,
+          "rect": [
+            325,
+            120,
+            930,
+            27
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": false,
+          "weight": "Plain"
+        }
+      ]
+    },
+    {
+      "id": "button-0",
+      "label": "Workforce Wellbeing System — button",
+      "kind": "button",
+      "rect": [
+        78,
+        483,
+        264,
+        49
+      ],
+      "fields": [
+        {
+          "label": "Arabic label",
+          "text": "منظومة جودة حياة القوى العاملة",
+          "size": 15,
+          "rect": [
+            5,
+            2,
+            254,
+            25
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English label",
+          "text": "Workforce Wellbeing System",
+          "size": 14,
+          "rect": [
+            5,
+            25,
+            254,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 0,
+      "radius": 26,
+      "template": "assets/reference/button-0.png",
+      "template_background": "assets/reference/button-0-background.png",
+      "reference_fields": [
+        {
+          "label": "Arabic label",
+          "text": "منظومة جودة حياة القوى العاملة",
+          "size": 15,
+          "rect": [
+            5,
+            2,
+            254,
+            25
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English label",
+          "text": "Workforce Wellbeing System",
+          "size": 14,
+          "rect": [
+            5,
+            25,
+            254,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "button-1",
+      "label": "Compliance and Inspection System — button",
+      "kind": "button",
+      "rect": [
+        373,
+        483,
+        263,
+        49
+      ],
+      "fields": [
+        {
+          "label": "Arabic label",
+          "text": "منظومة الامتثال والرقابة",
+          "size": 15,
+          "rect": [
+            5,
+            2,
+            254,
+            25
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English label",
+          "text": "Compliance and Inspection System",
+          "size": 14,
+          "rect": [
+            5,
+            25,
+            254,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 1,
+      "radius": 26,
+      "template": "assets/reference/button-1.png",
+      "template_background": "assets/reference/button-1-background.png",
+      "reference_fields": [
+        {
+          "label": "Arabic label",
+          "text": "منظومة الامتثال والرقابة",
+          "size": 15,
+          "rect": [
+            5,
+            2,
+            254,
+            25
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English label",
+          "text": "Compliance and Inspection System",
+          "size": 14,
+          "rect": [
+            5,
+            25,
+            254,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "button-2",
+      "label": "Unemployment Insurance Scheme — button",
+      "kind": "button",
+      "rect": [
+        666,
+        483,
+        263,
+        49
+      ],
+      "fields": [
+        {
+          "label": "Arabic label",
+          "text": "منظومة التأمين ضد التعطل عن العمل",
+          "size": 15,
+          "rect": [
+            5,
+            2,
+            254,
+            25
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English label",
+          "text": "Unemployment Insurance Scheme",
+          "size": 14,
+          "rect": [
+            5,
+            25,
+            254,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 2,
+      "radius": 26,
+      "template": "assets/reference/button-2.png",
+      "template_background": "assets/reference/button-2-background.png",
+      "reference_fields": [
+        {
+          "label": "Arabic label",
+          "text": "منظومة التأمين ضد التعطل عن العمل",
+          "size": 15,
+          "rect": [
+            5,
+            2,
+            254,
+            25
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English label",
+          "text": "Unemployment Insurance Scheme",
+          "size": 14,
+          "rect": [
+            5,
+            25,
+            254,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "button-3",
+      "label": "Workers Protection Programme — button",
+      "kind": "button",
+      "rect": [
+        959,
+        483,
+        264,
+        49
+      ],
+      "fields": [
+        {
+          "label": "Arabic label",
+          "text": "منظومة التأمين لحماية العمالة",
+          "size": 15,
+          "rect": [
+            5,
+            2,
+            254,
+            25
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English label",
+          "text": "Workers Protection Programme",
+          "size": 14,
+          "rect": [
+            5,
+            25,
+            254,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 3,
+      "radius": 26,
+      "template": "assets/reference/button-3.png",
+      "template_background": "assets/reference/button-3-background.png",
+      "reference_fields": [
+        {
+          "label": "Arabic label",
+          "text": "منظومة التأمين لحماية العمالة",
+          "size": 15,
+          "rect": [
+            5,
+            2,
+            254,
+            25
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English label",
+          "text": "Workers Protection Programme",
+          "size": 14,
+          "rect": [
+            5,
+            25,
+            254,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "button-4",
+      "label": "Wage Protection System — button",
+      "kind": "button",
+      "rect": [
+        1253,
+        483,
+        263,
+        49
+      ],
+      "fields": [
+        {
+          "label": "Arabic label",
+          "text": "منظومة حماية الأجور",
+          "size": 15,
+          "rect": [
+            5,
+            2,
+            254,
+            25
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English label",
+          "text": "Wage Protection System",
+          "size": 14,
+          "rect": [
+            5,
+            25,
+            254,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 4,
+      "radius": 26,
+      "template": "assets/reference/button-4.png",
+      "template_background": "assets/reference/button-4-background.png",
+      "reference_fields": [
+        {
+          "label": "Arabic label",
+          "text": "منظومة حماية الأجور",
+          "size": 15,
+          "rect": [
+            5,
+            2,
+            254,
+            25
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "English label",
+          "text": "Wage Protection System",
+          "size": 14,
+          "rect": [
+            5,
+            25,
+            254,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "stat-0-0",
+      "label": "Workforce Wellbeing System — card 1",
+      "kind": "stat",
+      "rect": [
+        78,
+        168,
+        264,
+        82
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "2",
+          "size": 70,
+          "rect": [
+            169,
+            0,
+            47,
+            65
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "million  مليون",
+          "size": 12,
+          "rect": [
+            145,
+            62,
+            119,
+            20
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "عامل يقيمون في سكنات تستوفي معايير عالية",
+          "size": 10,
+          "rect": [
+            10,
+            9,
+            135,
+            31
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Paid to beneficiaries since the scheme’s launch",
+          "size": 10,
+          "rect": [
+            10,
+            40,
+            135,
+            28
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            214,
+            0,
+            35,
+            31
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 0,
+      "template": "assets/reference/stat-0-0.png",
+      "template_background": "assets/reference/stat-0-0-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "2",
+          "size": 70,
+          "rect": [
+            169,
+            0,
+            47,
+            65
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "million  مليون",
+          "size": 12,
+          "rect": [
+            145,
+            62,
+            119,
+            20
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "عامل يقيمون في سكنات تستوفي معايير عالية",
+          "size": 10,
+          "rect": [
+            10,
+            9,
+            135,
+            31
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Paid to beneficiaries since the scheme’s launch",
+          "size": 10,
+          "rect": [
+            10,
+            40,
+            135,
+            28
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            214,
+            0,
+            35,
+            31
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "stat-0-1",
+      "label": "Workforce Wellbeing System — card 2",
+      "kind": "stat",
+      "rect": [
+        78,
+        262,
+        264,
+        76
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "60",
+          "size": 52,
+          "rect": [
+            155,
+            7,
+            75,
+            58
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "",
+          "size": 12,
+          "rect": [
+            155,
+            58,
+            109,
+            18
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "موقعاً على مستوى الدولة لتنفيذ فعاليات على مدار العام",
+          "size": 10,
+          "rect": [
+            8,
+            7,
+            146,
+            32
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Locations across the UAE hosting year-round events",
+          "size": 10,
+          "rect": [
+            8,
+            39,
+            146,
+            30
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            227,
+            7,
+            32,
+            30
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 0,
+      "template": "assets/reference/stat-0-1.png",
+      "template_background": "assets/reference/stat-0-1-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "60",
+          "size": 52,
+          "rect": [
+            155,
+            7,
+            75,
+            58
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "",
+          "size": 12,
+          "rect": [
+            155,
+            58,
+            109,
+            18
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "موقعاً على مستوى الدولة لتنفيذ فعاليات على مدار العام",
+          "size": 10,
+          "rect": [
+            8,
+            7,
+            146,
+            32
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Locations across the UAE hosting year-round events",
+          "size": 10,
+          "rect": [
+            8,
+            39,
+            146,
+            30
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            227,
+            7,
+            32,
+            30
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "stat-0-2",
+      "label": "Workforce Wellbeing System — card 3",
+      "kind": "stat",
+      "rect": [
+        78,
+        350,
+        264,
+        85
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "800",
+          "size": 52,
+          "rect": [
+            145,
+            0,
+            91,
+            63
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "thousand  ألف",
+          "size": 12,
+          "rect": [
+            141,
+            60,
+            123,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "عامل متوسط المشاركين في الفعاليات",
+          "size": 10,
+          "rect": [
+            10,
+            14,
+            133,
+            32
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Average number of workers participating in these events",
+          "size": 10,
+          "rect": [
+            10,
+            46,
+            135,
+            29
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            235,
+            0,
+            29,
+            28
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 0,
+      "template": "assets/reference/stat-0-2.png",
+      "template_background": "assets/reference/stat-0-2-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "800",
+          "size": 52,
+          "rect": [
+            145,
+            0,
+            91,
+            63
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "thousand  ألف",
+          "size": 12,
+          "rect": [
+            141,
+            60,
+            123,
+            23
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "عامل متوسط المشاركين في الفعاليات",
+          "size": 10,
+          "rect": [
+            10,
+            14,
+            133,
+            32
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Average number of workers participating in these events",
+          "size": 10,
+          "rect": [
+            10,
+            46,
+            135,
+            29
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            235,
+            0,
+            29,
+            28
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "stat-1-0",
+      "label": "Compliance and Inspection System — card 1",
+      "kind": "stat",
+      "rect": [
+        373,
+        168,
+        264,
+        127
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "600",
+          "size": 72,
+          "rect": [
+            59,
+            0,
+            128,
+            65
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "thousand  ألف",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            27
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "زيارة تفتيشية سنوياً",
+          "size": 12.4,
+          "rect": [
+            7,
+            88,
+            250,
+            21
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Inspection visits annually",
+          "size": 12.4,
+          "rect": [
+            7,
+            107,
+            250,
+            20
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            188,
+            0,
+            35,
+            30
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 1,
+      "template": "assets/reference/stat-1-0.png",
+      "template_background": "assets/reference/stat-1-0-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "600",
+          "size": 72,
+          "rect": [
+            59,
+            0,
+            128,
+            65
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "thousand  ألف",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            27
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "زيارة تفتيشية سنوياً",
+          "size": 12.4,
+          "rect": [
+            7,
+            88,
+            250,
+            21
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Inspection visits annually",
+          "size": 12.4,
+          "rect": [
+            7,
+            107,
+            250,
+            20
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            188,
+            0,
+            35,
+            30
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "stat-1-1",
+      "label": "Compliance and Inspection System — card 2",
+      "kind": "stat",
+      "rect": [
+        372,
+        308,
+        265,
+        128
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "%66",
+          "size": 54,
+          "rect": [
+            40,
+            2,
+            184,
+            62
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            1
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "زيادة في امتثال المنشآت\nلكل 1,000 زيارة تفتيشية",
+          "size": 12.4,
+          "rect": [
+            8,
+            62,
+            248,
+            36
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Increase in establishment compliance\nper 1,000 inspection visits",
+          "size": 12.4,
+          "rect": [
+            8,
+            97,
+            248,
+            29
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        }
+      ],
+      "group": 1,
+      "template": "assets/reference/stat-1-1.png",
+      "template_background": "assets/reference/stat-1-1-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "%66",
+          "size": 54,
+          "rect": [
+            40,
+            2,
+            184,
+            62
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            1
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "زيادة في امتثال المنشآت\nلكل 1,000 زيارة تفتيشية",
+          "size": 12.4,
+          "rect": [
+            8,
+            62,
+            248,
+            36
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Increase in establishment compliance\nper 1,000 inspection visits",
+          "size": 12.4,
+          "rect": [
+            8,
+            97,
+            248,
+            29
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        }
+      ]
+    },
+    {
+      "id": "stat-2-0",
+      "label": "Unemployment Insurance Scheme — card 1",
+      "kind": "stat",
+      "rect": [
+        666,
+        168,
+        264,
+        127
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "620",
+          "size": 72,
+          "rect": [
+            74,
+            0,
+            117,
+            65
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black",
+          "erase_rect": [
+            71,
+            0,
+            121,
+            65
+          ]
+        },
+        {
+          "label": "Unit",
+          "text": "million  مليون درهم",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            27
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "صُرفت للمستفيدين منذ بدء المنظومة",
+          "size": 12.4,
+          "rect": [
+            7,
+            88,
+            250,
+            21
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Paid to beneficiaries since the scheme’s launch",
+          "size": 12.4,
+          "rect": [
+            7,
+            107,
+            250,
+            20
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            190,
+            0,
+            35,
+            31
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Currency label",
+          "text": "AED",
+          "size": 13,
+          "rect": [
+            46,
+            9,
+            28,
+            12
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 2,
+      "template": "assets/reference/stat-2-0.png",
+      "template_background": "assets/reference/stat-2-0-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "620",
+          "size": 72,
+          "rect": [
+            74,
+            0,
+            117,
+            65
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black",
+          "erase_rect": [
+            71,
+            0,
+            121,
+            65
+          ]
+        },
+        {
+          "label": "Unit",
+          "text": "million  مليون درهم",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            27
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "صُرفت للمستفيدين منذ بدء المنظومة",
+          "size": 12.4,
+          "rect": [
+            7,
+            88,
+            250,
+            21
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Paid to beneficiaries since the scheme’s launch",
+          "size": 12.4,
+          "rect": [
+            7,
+            107,
+            250,
+            20
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            190,
+            0,
+            35,
+            31
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Currency label",
+          "text": "AED",
+          "size": 13,
+          "rect": [
+            46,
+            9,
+            28,
+            12
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "stat-2-1",
+      "label": "Unemployment Insurance Scheme — card 2",
+      "kind": "stat",
+      "rect": [
+        666,
+        308,
+        264,
+        127
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "%93",
+          "size": 54,
+          "rect": [
+            40,
+            2,
+            184,
+            62
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            1
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "من العمالة المستهدفة مشمولة بالمنظومة",
+          "size": 12.4,
+          "rect": [
+            8,
+            62,
+            248,
+            36
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Eligible workers covered by the scheme",
+          "size": 12.4,
+          "rect": [
+            8,
+            97,
+            248,
+            29
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        }
+      ],
+      "group": 2,
+      "template": "assets/reference/stat-2-1.png",
+      "template_background": "assets/reference/stat-2-1-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "%93",
+          "size": 54,
+          "rect": [
+            40,
+            2,
+            184,
+            62
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            1
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "من العمالة المستهدفة مشمولة بالمنظومة",
+          "size": 12.4,
+          "rect": [
+            8,
+            62,
+            248,
+            36
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Eligible workers covered by the scheme",
+          "size": 12.4,
+          "rect": [
+            8,
+            97,
+            248,
+            29
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        }
+      ]
+    },
+    {
+      "id": "stat-3-0",
+      "label": "Workers Protection Programme — card 1",
+      "kind": "stat",
+      "rect": [
+        959,
+        168,
+        264,
+        127
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "340",
+          "size": 72,
+          "rect": [
+            77,
+            0,
+            118,
+            65
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "million  مليون درهم",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            27
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "صُرفت للمستفيدين من المنظومة منذ بدء المنظومة",
+          "size": 12.4,
+          "rect": [
+            7,
+            88,
+            250,
+            21
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Paid to beneficiaries since the programme’s launch",
+          "size": 12.4,
+          "rect": [
+            7,
+            107,
+            250,
+            20
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            196,
+            0,
+            35,
+            30
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Currency label",
+          "text": "AED",
+          "size": 13,
+          "rect": [
+            48,
+            9,
+            28,
+            12
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 3,
+      "template": "assets/reference/stat-3-0.png",
+      "template_background": "assets/reference/stat-3-0-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "340",
+          "size": 72,
+          "rect": [
+            77,
+            0,
+            118,
+            65
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "million  مليون درهم",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            27
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "صُرفت للمستفيدين من المنظومة منذ بدء المنظومة",
+          "size": 12.4,
+          "rect": [
+            7,
+            88,
+            250,
+            21
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Paid to beneficiaries since the programme’s launch",
+          "size": 12.4,
+          "rect": [
+            7,
+            107,
+            250,
+            20
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Raised plus sign",
+          "text": "+",
+          "size": 30,
+          "rect": [
+            196,
+            0,
+            35,
+            30
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Currency label",
+          "text": "AED",
+          "size": 13,
+          "rect": [
+            48,
+            9,
+            28,
+            12
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "stat-3-1",
+      "label": "Workers Protection Programme — card 2",
+      "kind": "stat",
+      "rect": [
+        959,
+        308,
+        264,
+        127
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "%99",
+          "size": 54,
+          "rect": [
+            40,
+            2,
+            184,
+            62
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            1
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "من العمالة مشمولة بمنظومة\nالتأمين لحماية العمالة",
+          "size": 12.4,
+          "rect": [
+            8,
+            62,
+            248,
+            36
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Workers covered by the programme",
+          "size": 12.4,
+          "rect": [
+            8,
+            97,
+            248,
+            29
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        }
+      ],
+      "group": 3,
+      "template": "assets/reference/stat-3-1.png",
+      "template_background": "assets/reference/stat-3-1-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "%99",
+          "size": 54,
+          "rect": [
+            40,
+            2,
+            184,
+            62
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            1
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "من العمالة مشمولة بمنظومة\nالتأمين لحماية العمالة",
+          "size": 12.4,
+          "rect": [
+            8,
+            62,
+            248,
+            36
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Workers covered by the programme",
+          "size": 12.4,
+          "rect": [
+            8,
+            97,
+            248,
+            29
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        }
+      ]
+    },
+    {
+      "id": "stat-4-0",
+      "label": "Wage Protection System — card 1",
+      "kind": "stat",
+      "rect": [
+        1252,
+        167,
+        265,
+        128
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "37",
+          "size": 72,
+          "rect": [
+            100,
+            0,
+            68,
+            65
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "billion  مليار درهم",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            27
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "تحويلات أجور شهرية",
+          "size": 12.4,
+          "rect": [
+            7,
+            88,
+            250,
+            21
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Digital transactions annually",
+          "size": 12.4,
+          "rect": [
+            7,
+            107,
+            250,
+            20
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Currency label",
+          "text": "AED",
+          "size": 13,
+          "rect": [
+            69,
+            9,
+            28,
+            12
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ],
+      "group": 4,
+      "template": "assets/reference/stat-4-0.png",
+      "template_background": "assets/reference/stat-4-0-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "37",
+          "size": 72,
+          "rect": [
+            100,
+            0,
+            68,
+            65
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "billion  مليار درهم",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            27
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "تحويلات أجور شهرية",
+          "size": 12.4,
+          "rect": [
+            7,
+            88,
+            250,
+            21
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Digital transactions annually",
+          "size": 12.4,
+          "rect": [
+            7,
+            107,
+            250,
+            20
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "Currency label",
+          "text": "AED",
+          "size": 13,
+          "rect": [
+            69,
+            9,
+            28,
+            12
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        }
+      ]
+    },
+    {
+      "id": "stat-4-1",
+      "label": "Wage Protection System — card 2",
+      "kind": "stat",
+      "rect": [
+        1252,
+        308,
+        265,
+        128
+      ],
+      "fields": [
+        {
+          "label": "Number",
+          "text": "%99",
+          "size": 54,
+          "rect": [
+            40,
+            2,
+            184,
+            62
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            1
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "من العمالة مشمولة بمنظومة حماية الأجور",
+          "size": 12.4,
+          "rect": [
+            8,
+            62,
+            248,
+            36
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Workers covered by the Wage\nProtection System",
+          "size": 12.4,
+          "rect": [
+            8,
+            97,
+            248,
+            29
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        }
+      ],
+      "group": 4,
+      "template": "assets/reference/stat-4-1.png",
+      "template_background": "assets/reference/stat-4-1-background.png",
+      "reference_fields": [
+        {
+          "label": "Number",
+          "text": "%99",
+          "size": 54,
+          "rect": [
+            40,
+            2,
+            184,
+            62
+          ],
+          "lang": "en",
+          "color": "#ff8a00",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Unit",
+          "text": "",
+          "size": 22,
+          "rect": [
+            6,
+            62,
+            252,
+            1
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "Black"
+        },
+        {
+          "label": "Arabic description",
+          "text": "من العمالة مشمولة بمنظومة حماية الأجور",
+          "size": 12.4,
+          "rect": [
+            8,
+            62,
+            248,
+            36
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English description",
+          "text": "Workers covered by the Wage\nProtection System",
+          "size": 12.4,
+          "rect": [
+            8,
+            97,
+            248,
+            29
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        }
+      ]
+    },
+    {
+      "id": "invitation",
+      "label": "Standby invitation",
+      "kind": "invitation",
+      "rect": [
+        350,
+        215,
+        900,
+        120
+      ],
+      "fields": [
+        {
+          "label": "Arabic invitation",
+          "text": "المس علامة + أو اسم المنظومة لاستكشاف المزيد",
+          "size": 25,
+          "rect": [
+            20,
+            10,
+            860,
+            58
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        },
+        {
+          "label": "English invitation",
+          "text": "Tap + or a button to explore",
+          "size": 23,
+          "rect": [
+            20,
+            73,
+            860,
+            35
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": true,
+          "weight": "ExtraBold"
+        }
+      ],
+      "background": "#092e51",
+      "radius": 25,
+      "reference_fields": []
+    },
+    {
+      "id": "footer-en",
+      "label": "English footer",
+      "kind": "footer",
+      "rect": [
+        18,
+        657,
+        275,
+        35
+      ],
+      "fields": [
+        {
+          "label": "English footer",
+          "text": "An integrated system that begins with wage protection and extends to compensation in the event of unemployment or the loss of entitlements",
+          "size": 8.62,
+          "rect": [
+            0,
+            0,
+            275,
+            35
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": false,
+          "weight": "Plain"
+        }
+      ],
+      "background": "#123d60",
+      "radius": 0,
+      "template": "assets/reference/footer-en.png",
+      "template_background": "assets/reference/footer-en-background.png",
+      "reference_fields": [
+        {
+          "label": "English footer",
+          "text": "An integrated system that begins with wage protection and extends to compensation in the event of unemployment or the loss of entitlements",
+          "size": 8.62,
+          "rect": [
+            0,
+            0,
+            275,
+            35
+          ],
+          "lang": "en",
+          "color": "#ffffff",
+          "bold": false,
+          "weight": "Plain"
+        }
+      ]
+    },
+    {
+      "id": "footer-ar",
+      "label": "Arabic footer",
+      "kind": "footer",
+      "rect": [
+        1382,
+        657,
+        195,
+        35
+      ],
+      "fields": [
+        {
+          "label": "Arabic footer",
+          "text": "منظومة متكاملة تبدأ بحماية الأجور، وتمتد إلى التعويض عند التعطل أو فقدان المستحقات",
+          "size": 9.92,
+          "rect": [
+            0,
+            0,
+            195,
+            35
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": false,
+          "weight": "Plain"
+        }
+      ],
+      "background": "#123d60",
+      "radius": 0,
+      "template": "assets/reference/footer-ar.png",
+      "template_background": "assets/reference/footer-ar-background.png",
+      "reference_fields": [
+        {
+          "label": "Arabic footer",
+          "text": "منظومة متكاملة تبدأ بحماية الأجور، وتمتد إلى التعويض عند التعطل أو فقدان المستحقات",
+          "size": 9.92,
+          "rect": [
+            0,
+            0,
+            195,
+            35
+          ],
+          "lang": "ar",
+          "color": "#ffffff",
+          "bold": false,
+          "weight": "Plain"
+        }
+      ]
+    }
+  ],
+  "reference": "Client WhatsApp visual 2026-11-13 • original PDF artwork • Bahij fonts only"
+}

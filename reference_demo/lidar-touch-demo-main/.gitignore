@@ -1,0 +1,11 @@
+.tools/
+vendor/
+data/
+*.log
+*.pdb
+*.obj
+*.o
+*.lib
+node_modules/
+release/
+.build/

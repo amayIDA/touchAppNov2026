@@ -1,0 +1,46 @@
+{
+  "name": "lidar-touch-demo",
+  "version": "1.0.0",
+  "private": true,
+  "main": "electron/main.cjs",
+  "author": "IDA GCC",
+  "scripts": {
+    "start": "node server.js",
+    "desktop": "electron .",
+    "package:windows": "electron-builder --win portable --x64 --publish never",
+    "test": "node --test test/*.test.js",
+    "build:bridge": "powershell -NoProfile -ExecutionPolicy Bypass -File build-bridge.ps1"
+  },
+  "description": "SLAMTEC S3 interactive LED experiences and touch slideshow",
+  "build": {
+    "appId": "com.idagcc.s3touchstudio",
+    "productName": "S3 Touch Studio",
+    "asar": false,
+    "beforePack": "./electron/prepare-config.cjs",
+    "extraResources": [{"from": ".build/initial-sensor-config.json", "to": "initial-sensor-config.json"}],
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**",
+      "public/**",
+      "server.js",
+      "touch-engine.js",
+      "tuio.js",
+      "bin/lidar-bridge.exe",
+      "THIRD-PARTY-NOTICES.txt",
+      "package.json"
+    ],
+    "win": {
+      "target": "portable",
+      "signAndEditExecutable": false
+    },
+    "portable": {
+      "artifactName": "S3-Touch-Studio.exe"
+    }
+  },
+  "devDependencies": {
+    "electron": "^45.3.1",
+    "electron-builder": "^26.18.0"
+  }
+}

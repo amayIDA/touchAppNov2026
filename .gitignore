@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.log
+build/
+dist/
+*.spec
+*.lnk
+node_modules/
+lidar_touch/saved-profile-backup/
+**/lidar-profile*.json
+**/lidar-profile*.npy
+**/hardware-check.json
+**/*-preview.png
+**/*-preview.jpg
+**/studio-completed-preview.png
+/Touch screen.mp4
+/voice-note.wav
+/content.json.before-client-match.json
