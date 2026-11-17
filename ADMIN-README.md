@@ -18,3 +18,8 @@ Both applications share content_model.py for layout and typography. All statisti
 Source: admin.py. Build: powershell -File build_admin.ps1. Integration verification: python verify_admin.py (uses a temporary content file and does not modify the installation).
 
 Client baseline: original PDF artwork now supplies the default cards, numbers, percentages, header and labels. The client fonts are the only available weights: Bahij Black, ExtraBold and Plain. Number, raised plus sign and currency are separate fields. Saving edits replaces only that field while keeping surrounding artwork. Long replacement wording may need a smaller font or explicit line breaks. Original client layers remain the baseline until edited. The overall artboard is 1600 x 696, matching the reference image.
+
+## One-click launcher
+
+Double-click Start TouchScreen Admin.exe in the project root. It shares the exhibit's .touchscreen-env environment, checks dependencies, installs missing components, and opens admin.py. Keep it beside the complete project. Setup errors are recorded in admin-launcher.log. Build it using build_admin_launcher.ps1.
+

@@ -107,28 +107,30 @@ def ensure_runtime():
     return target
 
 
-def main():
+def main(admin=False):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check-only',action='store_true')
     parser.add_argument('--windowed',action='store_true')
     args = parser.parse_args()
-    logging.basicConfig(level=logging.INFO,format='%(message)s',handlers=[logging.StreamHandler(sys.stdout),logging.FileHandler(ROOT/'touchscreen-launcher.log',encoding='utf-8')])
+    entry = 'admin.py' if admin else 'app.py'
+    title = 'TouchScreen Admin' if admin else 'TouchScreen'
+    logging.basicConfig(level=logging.INFO,format='%(message)s',handlers=[logging.StreamHandler(sys.stdout),logging.FileHandler(ROOT/('admin-launcher.log' if admin else 'touchscreen-launcher.log'),encoding='utf-8')])
     if os.name == 'nt': ctypes.windll.kernel32.SetDllDirectoryW(None)
-    logging.info('TouchScreen - checking your setup...')
+    logging.info('%s - checking your setup...',title)
     try:
-        for name in ('app.py','tuio.py','content_model.py','config.json','content.json','assets/Arabic.ttf'):
+        for name in (entry,'tuio.py','content_model.py','config.json','content.json','assets/Arabic.ttf'):
             if not (ROOT/name).is_file(): raise RuntimeError(f'Missing project file: {name}. Keep this launcher in the complete TouchScreen project folder.')
         config=json.loads((ROOT/'config.json').read_text(encoding='utf-8-sig'))
-        if not (ROOT/config.get('background_video','Touch screen clean.mp4')).is_file(): raise RuntimeError('Background video is missing. Restore the complete project folder.')
+        if not admin and not (ROOT/config.get('background_video','Touch screen clean.mp4')).is_file(): raise RuntimeError('Background video is missing. Restore the complete project folder.')
         python = ensure_runtime()
         if args.check_only:
             logging.info('All dependencies are ready.');return 0
-        logging.info('Starting the touchscreen application...')
-        process = subprocess.Popen([str(python),str(ROOT/'app.py')]+(['--windowed'] if args.windowed else []),cwd=ROOT,env=child_env(),creationflags=getattr(subprocess,'CREATE_NO_WINDOW',0))
+        logging.info('Starting %s...',title)
+        process = subprocess.Popen([str(python),str(ROOT/entry)]+(['--windowed'] if args.windowed and not admin else []),cwd=ROOT,env=child_env(),creationflags=getattr(subprocess,'CREATE_NO_WINDOW',0))
         # Surface startup failures before this console closes.
         try:
             code = process.wait(timeout=6)
-            if code: raise RuntimeError(f'Touchscreen exited during startup ({code}). See touchscreen.log.')
+            if code: raise RuntimeError(f'{title} exited during startup ({code}). See the launcher log.')
         except subprocess.TimeoutExpired: pass
         return 0
     except Exception as exc:
