@@ -1,0 +1,10 @@
+from pathlib import Path
+p=Path('touchscreen_launcher.py');s=p.read_text(encoding='utf-8');s=s.replace('def main():','def main(admin=False):');s=s.replace("    args = parser.parse_args()", "    args = parser.parse_args()\n    entry = 'admin.py' if admin else 'app.py'\n    title = 'TouchScreen Admin' if admin else 'TouchScreen'")
+s=s.replace("ROOT/'touchscreen-launcher.log',encoding='utf-8'", "ROOT/('admin-launcher.log' if admin else 'touchscreen-launcher.log'),encoding='utf-8'")
+s=s.replace("logging.info('TouchScreen - checking your setup...')", "logging.info('%s - checking your setup...',title)")
+s=s.replace("for name in ('app.py','tuio.py','content_model.py','config.json','content.json','assets/Arabic.ttf'):","for name in (entry,'tuio.py','content_model.py','config.json','content.json','assets/Arabic.ttf'):")
+s=s.replace("if not (ROOT/config.get('background_video','Touch screen clean.mp4')).is_file():", "if not admin and not (ROOT/config.get('background_video','Touch screen clean.mp4')).is_file():")
+s=s.replace("logging.info('Starting the touchscreen application...')", "logging.info('Starting %s...',title)")
+s=s.replace("str(ROOT/'app.py')]+(['--windowed'] if args.windowed else [])", "str(ROOT/entry)]+(['--windowed'] if args.windowed and not admin else [])")
+s=s.replace("f'Touchscreen exited during startup ({code}). See touchscreen.log.'", "f'{title} exited during startup ({code}). See the launcher log.'")
+p.write_text(s,encoding='utf-8')
