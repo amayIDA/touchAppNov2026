@@ -20,3 +20,5 @@ lidar_touch/saved-profile-backup/
 /Touch screen.mp4
 /voice-note.wav
 /content.json.before-client-match.json
+
+.touchscreen-env/
