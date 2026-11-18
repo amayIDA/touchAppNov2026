@@ -51,7 +51,7 @@ class Admin(QMainWindow):
         self.arabic=register_fonts(asset)
         shell=QWidget();self.setCentralWidget(shell);layout=QVBoxLayout(shell)
         top=QHBoxLayout();title=QLabel('TouchScreen Studio');title.setStyleSheet('font-size:24px;font-weight:700;');top.addWidget(title);top.addStretch()
-        self.view=QComboBox();self.view.addItems(['All statistic cards','Standby invitation']);top.addWidget(self.view)
+        self.view=QComboBox();self.view.addItems(['All statistic cards','Standby']);top.addWidget(self.view)
         self.heading_button=QPushButton('Edit heading');top.addWidget(self.heading_button)
         self.open_button=QPushButton('Open content file…');top.addWidget(self.open_button)
         self.save_button=QPushButton('Save to exhibit');self.save_button.setStyleSheet('background:#137ea3;font-weight:700;padding:12px;');top.addWidget(self.save_button);layout.addLayout(top)

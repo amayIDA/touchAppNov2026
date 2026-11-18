@@ -2336,50 +2336,6 @@
       ]
     },
     {
-      "id": "invitation",
-      "label": "Standby invitation",
-      "kind": "invitation",
-      "rect": [
-        350,
-        215,
-        900,
-        120
-      ],
-      "fields": [
-        {
-          "label": "Arabic invitation",
-          "text": "المس علامة + أو اسم المنظومة لاستكشاف المزيد",
-          "size": 22,
-          "rect": [
-            20,
-            32,
-            860,
-            34
-          ],
-          "lang": "ar",
-          "color": "#ffffff",
-          "bold": true,
-          "weight": "ExtraBold"
-        },
-        {
-          "label": "English invitation",
-          "text": "Tap + or a button to explore",
-          "size": 20,
-          "rect": [
-            20,
-            66,
-            860,
-            26
-          ],
-          "lang": "en",
-          "color": "#ffffff",
-          "bold": true,
-          "weight": "ExtraBold"
-        }
-      ],
-      "reference_fields": []
-    },
-    {
       "id": "footer-en",
       "label": "English footer",
       "kind": "footer",

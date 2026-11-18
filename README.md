@@ -49,9 +49,9 @@ Launch `dist/TouchScreen/TouchScreen.exe`. Copy the entire folder to move the ex
 
 ## Visitor experience
 
-Standby shows the animated city, original heading, five system labels and plus buttons, and a bilingual invitation. Statistics start hidden. Tap any plus or its system label to reveal that column's original bilingual statistic cards in a short upward stagger. Each column works independently and stays visible while other visitors explore. The plus morphs into a minus when expanded. Tap the minus or system label again to smoothly collapse only that column. A luminous underline marks a discovered system. After all five are explored the complete supplied infographic is visible. No popup interrupts the city scene.
+Standby shows the animated city, original heading, and five system labels and plus buttons. Statistics start hidden. Tap any plus or its system label to reveal that column's original bilingual statistic cards in a short upward stagger. Each column works independently and stays visible while other visitors explore. The plus morphs into a minus when expanded. Tap the minus or system label again to smoothly collapse only that column. A luminous underline marks a discovered system. After all five are explored the complete supplied infographic is visible. No popup interrupts the city scene.
 
-After 20 seconds without input, the statistics fade away and the invitation returns. A new system touch during that fade starts a clean discovery. Active TUIO touches keep the session alive. `idle_return_seconds` in config.json controls the timeout.
+After 20 seconds without input, the statistics fade away. A new system touch during that fade starts a clean discovery. Active TUIO touches keep the session alive. `idle_return_seconds` in config.json controls the timeout.
 
 Button glows and spaced light sweeps invite interaction. Presses produce a soft confirmation tone and a contact ripple. The supplied cinematic track loops continuously at 50% application volume. `audio.background_volume` and `audio.effects_volume` accept values from 0.0 to 1.0. The `mute` setting controls video audio separately. Windows and speaker volume also affect loudness.
 

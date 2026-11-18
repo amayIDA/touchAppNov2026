@@ -36,7 +36,6 @@ class Exhibit(QWidget):
         self.collapsing = [None]*5
         self.icon_open = [0.0]*5
         self.reset_started = None
-        self.first_reveal = None
         self.started = time.monotonic(); self.last_action = self.started
         self.home_started = self.started
         self.hover_amount = [0.0]*5
@@ -144,13 +143,11 @@ class Exhibit(QWidget):
             self.effects['press'].play()
             self.collapsing[i]=None
             self.revealed[i]=now
-            if self.first_reveal is None: self.first_reveal=now
         else:
             self.effects['back'].play()
             self.collapsing[i]=(now,now-self.revealed[i])
             self.revealed[i]=None
             if all(t is None for t in self.revealed):
-                self.first_reveal=None
                 self.home_started=now
         self.last_action=now
         logging.info('Revealed system %s',i)
@@ -160,7 +157,6 @@ class Exhibit(QWidget):
         self.revealed=[None]*5
         self.collapsing=[None]*5
         self.reset_started=None
-        self.first_reveal=None
         self.home_started=time.monotonic()
 
     def home(self,feedback=False):
@@ -301,7 +297,6 @@ class Exhibit(QWidget):
                 shine.setColorAt(0,QColor(140,240,255,0)); shine.setColorAt(.5,QColor(160,242,255,45)); shine.setColorAt(1,QColor(140,240,255,0))
                 p.fillRect(QRectF(x-40,483,80,51),shine); p.restore()
             p.restore()
-        self.draw_invitation(p,now)
         for pos,t in self.ripples:
             progress = (now-t)/.7
             p.setPen(QPen(QColor(126,235,255,int(190*(1-progress))),2*(1-progress)+.5))
@@ -334,16 +329,6 @@ class Exhibit(QWidget):
             p.setPen(QPen(QColor(108,225,255,int(100*math.sin(progress*math.pi))),1.3))
             p.drawLine(QPointF(cx-100,171),QPointF(cx-100+200*ease(progress),171))
             p.restore()
-
-    def draw_invitation(self,p,now):
-        appeared=ease((now-self.home_started-.3)/.7)
-        if self.first_reveal is not None:
-            appeared*=1-ease((now-self.first_reveal)/.25)
-        if appeared<=0: return
-        p.save(); p.setOpacity(appeared)
-        for card in self.editable['cards']:
-            if card['kind']=='invitation': draw_card(p,card,self.arabic_font)
-        p.restore()
 
     def closeEvent(self,e):
         self.music.stop()

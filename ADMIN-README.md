@@ -2,7 +2,7 @@
 
 Keep the TouchScreenAdmin folder beside the TouchScreen folder. Launch TouchScreenAdmin.exe, then:
 
-1. Click a card, button label, heading line, or footer in the visual preview. The Edit heading button selects the title/subtitle group directly. Use the view selector for the standby invitation.
+1. Click a card, button label, heading line, or footer in the visual preview. The Edit heading button selects the title/subtitle group directly. Use the view selector to preview standby.
 2. Select its text field on the right. Arabic and English fields are independently editable.
 3. Change the wording, font size, bold setting or text color. The preview updates immediately.
 4. Click Save to exhibit (Ctrl+S). The running exhibit reloads the saved content within one second; no rebuild or restart is required.
@@ -13,7 +13,7 @@ Font sizes are design pixels at the exhibit's 1600 x 703 reference resolution an
 
 Each save preserves the previous content file as content.json.bak. Revert selected card restores the last saved version of that card. Unsaved edits are checked when closing the admin. Invalid content is rejected, and the running exhibit keeps its last valid content if a reload fails.
 
-Both applications share content_model.py for layout and typography. All statistic values, units, Arabic/English descriptions, system button names, header/subtitles, invitation and footer wording are editable. The old video's baked heading, button labels and footer are covered by editable replacements, so edited text never sits on top of the original wording. The title is drawn transparently over a cleaned copy of the background video; no rectangular sky mask is drawn. The original video remains unchanged.
+Both applications share content_model.py for layout and typography. All statistic values, units, Arabic/English descriptions, system button names, header/subtitles and footer wording are editable. The old video's baked heading, button labels and footer are covered by editable replacements, so edited text never sits on top of the original wording. The title is drawn transparently over a cleaned copy of the background video; no rectangular sky mask is drawn. The original video remains unchanged.
 
 Source: admin.py. Build: powershell -File build_admin.ps1. Integration verification: python verify_admin.py (uses a temporary content file and does not modify the installation).
 

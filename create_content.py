@@ -29,7 +29,6 @@ for i,rows in enumerate(entries):
             rect=[centers[i]-133,171+j*139,266,130]
             fields=[f('Number',number,62 if j==0 else 53,[8,0,250,66],color='#ff941e' if j==1 else '#ffffff'),f('Unit',unit,18,[7,65,252,23]),f('Arabic description',ar,13,[8,88 if unit else 66,250,23 if unit else 33],'ar'),f('English description',en,12,[8,110 if unit else 99,250,19 if unit else 28])]
         card(f'stat-{i}-{j}',names[i][0]+f' — card {j+1}','stat',rect,fields,i)
-card('invitation','Standby invitation','invitation',[350,215,900,120],[f('Arabic invitation','المس علامة + أو اسم المنظومة لاستكشاف المزيد',22,[20,32,860,34],'ar'),f('English invitation','Tap + or a button to explore',20,[20,66,860,26])])
 card('footer-en','English footer','footer',[8,658,360,45],[f('English footer','An integrated system that begins with wage protection and extends to compensation in the event of unemployment or the loss of entitlements',10,[5,3,350,39],bold=False)])
 card('footer-ar','Arabic footer','footer',[1232,658,360,45],[f('Arabic footer','منظومة متكاملة تبدأ بحماية الأجور، وتمتد إلى التعويض عند التعطل أو فقدان المستحقات',11,[5,3,350,39],'ar',bold=False)])
 for c in cards:
