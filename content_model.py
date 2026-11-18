@@ -133,9 +133,9 @@ def draw_card(p,card,arabic,selected=False):
         if not image.isNull():
             p.drawImage(local,image)
             p.restore();return
-    gradient=QLinearGradient(0,0,r.width(),r.height())
-    gradient.setColorAt(0,QColor(card.get('background','#0b4d79')));gradient.setColorAt(1,QColor('#123d60' if card['kind']=='footer' else '#167fa4'))
-    if card['kind'] not in ('header','footer'):
+    if card['kind'] not in ('header','footer','invitation'):
+        gradient=QLinearGradient(0,0,r.width(),r.height())
+        gradient.setColorAt(0,QColor(card.get('background','#0b4d79')));gradient.setColorAt(1,QColor('#167fa4'))
         p.setBrush(gradient);p.setPen(QPen(QColor('#78e4ff'),2) if selected else Qt.PenStyle.NoPen)
         p.drawRoundedRect(local,card.get('radius',18),card.get('radius',18))
     for field in card['fields']:

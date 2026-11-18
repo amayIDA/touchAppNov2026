@@ -28,6 +28,7 @@ class Exhibit(QWidget):
         self.cfg = config
         self.setWindowTitle('TouchScreen • Labour Market')
         self.setAttribute(Qt.WidgetAttribute.WA_AcceptTouchEvents)
+        self.setCursor(Qt.CursorShape.BlankCursor)
         self.setMouseTracking(True)
         self.resize(1600, 850)
         self.debug = False; self.hover = -1
@@ -214,7 +215,6 @@ class Exhibit(QWidget):
     def mouseMoveEvent(self,e):
         p=self.local_point(e.position().x(),e.position().y())
         self.hover=next((i for i,c in enumerate(CENTERS) if QRectF(c-134,443,268,100).contains(p)),-1)
-        self.setCursor(Qt.CursorShape.PointingHandCursor if self.hover>=0 else Qt.CursorShape.ArrowCursor)
 
     def leaveEvent(self,e):
         self.hover = -1

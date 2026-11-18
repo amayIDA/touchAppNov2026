@@ -2349,12 +2349,12 @@
         {
           "label": "Arabic invitation",
           "text": "المس علامة + أو اسم المنظومة لاستكشاف المزيد",
-          "size": 25,
+          "size": 22,
           "rect": [
             20,
-            10,
+            32,
             860,
-            58
+            34
           ],
           "lang": "ar",
           "color": "#ffffff",
@@ -2364,12 +2364,12 @@
         {
           "label": "English invitation",
           "text": "Tap + or a button to explore",
-          "size": 23,
+          "size": 20,
           "rect": [
             20,
-            73,
+            66,
             860,
-            35
+            26
           ],
           "lang": "en",
           "color": "#ffffff",
@@ -2377,8 +2377,6 @@
           "weight": "ExtraBold"
         }
       ],
-      "background": "#092e51",
-      "radius": 25,
       "reference_fields": []
     },
     {
