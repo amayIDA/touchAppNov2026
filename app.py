@@ -40,7 +40,7 @@ class Exhibit(QWidget):
         self.home_started = self.started
         self.hover_amount = [0.0]*5
         self.ripples = []
-        self.last_trigger = (-99, 0); self.touch_points = {}; self.errors = []
+        self.last_trigger = {}; self.touch_points = {}; self.errors = []
         self.frame = None
         self.stats = [QPixmap(str(resource(f'assets/stats-{i}.png'))) for i in range(5)]
         self.plus = QPixmap(str(resource('assets/plus.png')))
@@ -129,12 +129,13 @@ class Exhibit(QWidget):
         self.activate(self.mapped_touch(source,x,y))
 
     def activate(self,p):
-        self.last_action=time.monotonic()
+        now=time.monotonic()
+        self.last_action=now
         for i,cx in enumerate(CENTERS):
             if QRectF(cx-134,443,268,100).contains(p):
-                if self.last_trigger[0] == i and time.monotonic()-self.last_trigger[1]<.45: return
-                self.ripples.append((QPointF(p),time.monotonic()))
-                self.last_trigger=(i,time.monotonic()); self.open_topic(i); return
+                if now-self.last_trigger.get(i,-math.inf)<.45: return
+                self.ripples.append((QPointF(p),now))
+                self.last_trigger[i]=now; self.open_topic(i); return
 
     def open_topic(self,i):
         now=time.monotonic()
