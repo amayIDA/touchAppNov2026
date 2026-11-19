@@ -304,8 +304,6 @@ class Exhibit(QWidget):
                 for sid,(x,y) in points.items():
                     pos=self.mapped_touch(key[1],x,y)
                     p.setPen(QPen(QColor('#ff9c25'),3)); p.setBrush(QColor(255,156,37,80)); p.drawEllipse(pos,14,14)
-        elif self.errors:
-            self.text(p,QRectF(400,665,800,30),'Playback or input issue — press F2 for details',12,color='#ffbd64')
         p.end()
 
     def draw_statistics(self,p,index,cx,age,opacity):
