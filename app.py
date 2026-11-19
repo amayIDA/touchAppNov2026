@@ -32,12 +32,11 @@ class Exhibit(QWidget):
         self.setMouseTracking(True)
         self.resize(1600, 850)
         self.debug = False; self.hover = -1
-        self.revealed = [None]*5
         self.collapsing = [None]*5
-        self.icon_open = [0.0]*5
-        self.reset_started = None
-        self.started = time.monotonic(); self.last_action = self.started
-        self.home_started = self.started
+        self.icon_open = [1.0]*5
+        self.last_action = time.monotonic()
+        self.home_started = self.last_action
+        self.revealed = [self.last_action]*5
         self.hover_amount = [0.0]*5
         self.ripples = []
         self.last_trigger = {}; self.touch_points = {}; self.errors = []
@@ -139,7 +138,6 @@ class Exhibit(QWidget):
 
     def open_topic(self,i):
         now=time.monotonic()
-        if self.reset_started is not None: self.clear_discoveries()
         if self.revealed[i] is None:
             self.effects['press'].play()
             self.collapsing[i]=None
@@ -154,16 +152,14 @@ class Exhibit(QWidget):
         logging.info('Revealed system %s',i)
         self.update()
 
-    def clear_discoveries(self):
-        self.revealed=[None]*5
-        self.collapsing=[None]*5
-        self.reset_started=None
-        self.home_started=time.monotonic()
-
     def home(self,feedback=False):
-        if any(t is not None for t in self.revealed) and self.reset_started is None:
-            if feedback: self.effects['back'].play()
-            self.reset_started=time.monotonic()
+        now=time.monotonic()
+        if feedback and None in self.revealed: self.effects['back'].play()
+        for i,revealed_at in enumerate(self.revealed):
+            if revealed_at is None:
+                self.revealed[i]=now
+                self.collapsing[i]=None
+        self.last_action=now
         self.update()
 
     def tick(self):
@@ -181,17 +177,15 @@ class Exhibit(QWidget):
         for i in range(5):
             target=1.0 if self.hover == i else 0.0
             self.hover_amount[i]+=(target-self.hover_amount[i])*.22
-            icon_target=1.0 if self.revealed[i] is not None and self.reset_started is None else 0.0
+            icon_target=1.0 if self.revealed[i] is not None else 0.0
             self.icon_open[i]+=(icon_target-self.icon_open[i])*.3
             if self.collapsing[i] is not None and now-self.collapsing[i][0]>.3:
                 self.collapsing[i]=None
         self.ripples=[(pos,t) for pos,t in self.ripples if now-t < .7]
-        if self.reset_started is not None and now-self.reset_started > .7:
-            self.clear_discoveries()
         # A visitor holding a touch is still engaging with the exhibit.
         touching=any(self.touch_points.values())
         if touching: self.last_action=now
-        if any(t is not None for t in self.revealed) and now-self.last_action>self.cfg.get('idle_return_seconds',20):
+        if None in self.revealed and now-self.last_action>self.cfg.get('idle_return_seconds',20):
             self.home()
         self.update()
 
@@ -220,7 +214,7 @@ class Exhibit(QWidget):
     def keyPressEvent(self,e):
         key=e.key()
         if key==Qt.Key.Key_Escape:
-            if any(t is not None for t in self.revealed): self.home(feedback=True)
+            if None in self.revealed: self.home(feedback=True)
             else: self.close()
         elif key==Qt.Key.Key_F11:
             self.showNormal() if self.isFullScreen() else self.showFullScreen()
@@ -245,14 +239,13 @@ class Exhibit(QWidget):
         home_age = now-self.home_started
         for i,cx in enumerate(CENTERS):
             revealed_at=self.revealed[i]
-            reset_opacity=1-ease((now-self.reset_started)/.7) if self.reset_started is not None else 1
             if revealed_at is not None:
-                self.draw_statistics(p,i,cx,now-revealed_at,reset_opacity)
+                self.draw_statistics(p,i,cx,now-revealed_at,1)
             elif self.collapsing[i] is not None:
                 closed_at,age=self.collapsing[i]
                 progress=ease((now-closed_at)/.3)
                 p.save();p.translate(0,10*progress)
-                self.draw_statistics(p,i,cx,age,(1-progress)*reset_opacity)
+                self.draw_statistics(p,i,cx,age,1-progress)
                 p.restore()
             hover = self.hover_amount[i]
             # One slow travelling invitation, with a rest between cycles.
@@ -283,7 +276,7 @@ class Exhibit(QWidget):
             if vertical>.15: p.drawLine(QPointF(0,-vertical),QPointF(0,vertical))
             p.restore()
             if revealed_at is not None:
-                progress=ease((now-revealed_at)/.4)*reset_opacity
+                progress=ease((now-revealed_at)/.4)
                 p.setPen(QPen(QColor(115,235,255,int(210*progress)),2.3))
                 p.drawLine(QPointF(cx-22*progress,539),QPointF(cx+22*progress,539))
 

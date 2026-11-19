@@ -1,4 +1,4 @@
-import os,json,time,tempfile,copy
+import os,json,tempfile,copy
 os.environ['QT_QPA_PLATFORM']='offscreen'
 from pathlib import Path
 from PySide6.QtWidgets import QApplication
@@ -15,8 +15,7 @@ w=Exhibit(c,True);w.content_path=path;w.content_stamp=path.stat().st_mtime_ns
 def check():
     try:
         a.grab().save('admin-preview.png')
-        w.clear_discoveries();w.grab().save('editable-standby.png')
-        for i in range(5):w.open_topic(i);w.revealed[i]=time.monotonic()-3
+        w.grab().save('editable-standby.png')
         w.grab().save('editable-complete.png')
         index=next(i for i,c in enumerate(a.data['cards']) if c['id']=='stat-1-0')
         a.choose_card(index);a.editor.setPlainText('750+');a.size.setValue(50);a.save()
